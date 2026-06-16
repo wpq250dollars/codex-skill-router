@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+
+skill-router/data/
+data/
+*.backup.*.md
+*.pre-hard-rule.*.md
+skills_cache.json
+custom_rules.json
+config.toml
+plugins/cache/
+**/plugins/cache/
+.codex/
+.agents/

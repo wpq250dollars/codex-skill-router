@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "my-local-skill": {
+      "description": "Describe what this local skill does.",
+      "keywords": ["keyword-a", "keyword-b"],
+      "scenarios": ["Use when this kind of task appears."],
+      "priority": 60
+    }
+  }
+}

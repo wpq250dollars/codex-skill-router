@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "cwd": "/path/to/current/project",
+  "cache_path": "/home/user/.codex/skills/skill-router/data/skills_cache.json",
+  "scanned_roots": [
+    {
+      "source": "user_agents_skills",
+      "path": "/home/user/.agents/skills",
+      "exists": true
+    },
+    {
+      "source": "project_agents_skills",
+      "path": "/path/to/current/project/.agents/skills",
+      "exists": false
+    },
+    {
+      "source": "codex_skills",
+      "path": "/home/user/.codex/skills",
+      "exists": true
+    },
+    {
+      "source": "plugin_cache",
+      "path": "/home/user/.codex/plugins/cache",
+      "exists": true
+    }
+  ],
+  "skill_count": 3,
+  "skills": [
+    {
+      "id": "codex_skills:skill-router:1",
+      "name": "skill-router",
+      "description": "Routes tasks to skills and safe execution modes.",
+      "path": "/home/user/.codex/skills/skill-router/SKILL.md",
+      "source": "codex_skills",
+      "plugin": "",
+      "provider": "",
+      "version": "",
+      "known": true,
+      "custom_rule": false,
+      "custom": {}
+    },
+    {
+      "id": "codex_skills:example-skill:2",
+      "name": "example-skill",
+      "description": "Example local skill.",
+      "path": "/home/user/.codex/skills/example-skill/SKILL.md",
+      "source": "codex_skills",
+      "plugin": "",
+      "provider": "",
+      "version": "",
+      "known": true,
+      "custom_rule": false,
+      "custom": {}
+    },
+    {
+      "id": "plugin_cache:example-plugin-skill:3",
+      "name": "example-plugin-skill",
+      "description": "Example plugin-provided skill.",
+      "path": "/home/user/.codex/plugins/cache/example-provider/example-plugin/1.0.0/skills/example-plugin-skill/SKILL.md",
+      "source": "plugin_cache",
+      "plugin": "example-plugin",
+      "provider": "example-provider",
+      "version": "1.0.0",
+      "known": true,
+      "custom_rule": false,
+      "custom": {}
+    }
+  ]
+}
